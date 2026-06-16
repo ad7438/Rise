@@ -1,0 +1,16 @@
+# Server-side Python dependencies for the current AGSP/SVPM/SVAC pipeline.
+# PyTorch/CUDA are provided by the selected BitaHub image and are not listed here.
+numpy
+scipy
+pillow
+opencv-python-headless
+matplotlib
+pandas
+tqdm
+transformers
+scikit-image
+scikit-learn
+py_sod_metrics
+tensorboardX
+thop
+omegaconf

@@ -1,0 +1,36 @@
+# Data and generated experiment artifacts.
+Dataset/
+results/
+outputs/
+output/
+logs/
+snapshot/
+pred/
+
+# SINet-V2 generated outputs and checkpoints.
+SINet-V2/pred/
+SINet-V2/snapshot/
+
+# Model checkpoints and training artifacts.
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.log
+*.pid
+*.out
+*.err
+
+# Python / notebook caches.
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Local Codex/temporary artifacts.
+.codex-pet-runs/
+tmp/
+
+# Office/editor temporary files.
+~$*
+*.tmp
