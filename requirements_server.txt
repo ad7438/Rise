@@ -9,7 +9,9 @@ opencv-python-headless==4.11.0.86
 matplotlib
 pandas
 tqdm
-transformers
+# Newer transformers builds disable the PyTorch backend on the current
+# BitaHub torch 2.1.2 image. Pin to a torch-2.1-compatible release.
+transformers==4.52.4
 scikit-image
 scikit-learn
 pysodmetrics
