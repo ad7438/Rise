@@ -56,5 +56,5 @@ PY
 echo
 echo "Setup finished."
 echo "Next suggested commands:"
-echo "  cd /workspace/RISE-master"
+echo "  cd /root/Rise"
 echo "  tmux new -s rise"

@@ -3,7 +3,9 @@
 numpy<2
 scipy
 pillow
-opencv-python-headless
+# OpenCV 4.12+/4.13+ on Python>=3.9 requires NumPy 2.x, which conflicts with
+# the current PyTorch 2.1.2 BitaHub image. Pin to the latest NumPy-1.x-safe build.
+opencv-python-headless==4.11.0.86
 matplotlib
 pandas
 tqdm
