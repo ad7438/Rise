@@ -10,7 +10,7 @@ tqdm
 transformers
 scikit-image
 scikit-learn
-py_sod_metrics
+pysodmetrics
 tensorboardX
 thop
 omegaconf
